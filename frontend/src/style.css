@@ -1,0 +1,228 @@
+.body{
+    display: flex;
+} 
+  
+  
+  /* css for searching */
+
+/* TransactionList.css */
+
+.tab_container {
+    max-width: 800px;
+    margin: 0 auto;
+    
+  }
+  
+  .tab_title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+  }
+  
+  /* Style for the search container */
+.tab_search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Add margin for spacing */
+  }
+  
+  /* Style for the search input */
+  .tab_input {
+    flex: 1; /* Take remaining space */
+    padding: 8px;
+    /* margin-right: 5px; */
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  /* Style for the search button */
+  .tab_button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius:0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the search button */
+  .tab_button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* style.css */
+
+/* Style for the table container */
+.tab_container {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style for the table */
+  .tab_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    /* border: 1px solid #ccc; */
+     /* border-radius: 5px; */
+    border-radius: 50px;
+  }
+  
+  /* Style for table headers */
+  .tab_header {
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+  
+  /* Style for table data cells */
+  .tab_data {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+
+  .tab_image {
+    max-width: 100px; /* Adjust the maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Style for alternating row colors */
+  .tab_table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+
+/* style.css */
+
+/* Style for pagination buttons */
+.pagination-buttons {
+  margin-top: 20px;
+}
+
+.tab_prev-button,
+.tab_next-button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tab_prev-button {
+  margin-right: 10px; /* Add margin to separate from Next button */
+}
+
+.tab_next-button {
+  margin-left: 10px; /* Add margin to separate from Previous button */
+}
+
+.tab_previous-button:hover,
+.tab_next-button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+
+
+       /* css for statistics */
+
+
+/* App.css */
+
+.stats_container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .stats_title {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .stats_form-group {
+    margin-bottom: 20px;
+  }
+  
+  .stats_label {
+    margin-right: 10px;
+  }
+  
+  .stats_select {
+    padding: 8px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px ;
+  }
+  
+  .stats_option {
+    font-size: 16px;
+  }
+  
+  .stats_button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    padding-bottom: 9px;
+    border-radius:0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .stats_button:hover {
+    background-color: #0056b3;
+  }
+  
+  .stats_statistics {
+    margin-top: 20px;
+  }
+  
+  .stats_value {
+    font-weight: bold;
+  }
+  
+ /* style.css */
+
+/* Style for the container of the "View Full Text" button */
+/* style.css */
+
+/* Style for the container of the "View Full Text" button */
+.tab_view-full-container {
+  display: inline-block; /* Use inline-block to limit the width to the content */
+  border: 1px solid #ccc; /* Thin border with light grey color */
+  margin-top: 5px;
+  margin-right: 10px;
+  float: right;
+}
+
+
+/* Style for the "View Full Text" button */
+.tab_view-full-button {
+  padding: 5px 10px;
+  background-color: transparent; /* Transparent background */
+  color: grey; /* Grey text color */
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.tab_view-full-button:hover {
+  color: black; /* Change text color on hover */
+}
+
+
+
+
+
+/* BarChart.css */
+
+.bar-chart-container {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
